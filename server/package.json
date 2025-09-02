@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Coder's Community",
+  "keywords": [
+    "react.js",
+    "javascript",
+    "node.js"
+  ],
+  "license": "ISC",
+  "author": "Md Akram",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cloudinary": "^2.7.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.0"
+  }
+}
